@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "952352750433",
+    "firebase_url": "https://hackatoncresol.firebaseio.com",
+    "project_id": "hackatoncresol",
+    "storage_bucket": "hackatoncresol.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952352750433:android:c2d8774cf3d99677",
+        "android_client_info": {
+          "package_name": "com.hackaton.fonseca.hackaton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952352750433-4d3h1pt59mulqvvdh2fcb94b195f0doq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hackaton.fonseca.hackaton",
+            "certificate_hash": "02537a44fed0235411e4d69c537489085ea973e2"
+          }
+        },
+        {
+          "client_id": "952352750433-qb2l7nvc2a0qsupue85ccu2gbfb90g29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzAsfCN1KuwnKxDziCPtNoElM9Un5YO5I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952352750433-qb2l7nvc2a0qsupue85ccu2gbfb90g29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

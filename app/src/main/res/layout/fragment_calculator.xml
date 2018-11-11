@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.CalculatorFragment">
+
+    <Spinner
+        android:id="@+id/categoriaGastos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="8dp"
+        android:popupBackground="@android:color/white"
+        android:scrollbars="none"
+        android:spinnerMode="dropdown" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/vlrInicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="8dp"
+        android:hint="Informe o valor a investir (R$)"
+        android:layout_below="@+id/categoriaGastos"
+        android:inputType="number"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/vlrMensal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="8dp"
+        android:hint="Informe o valor a depositar no mês (R$)"
+        android:layout_below="@+id/vlrInicial"
+        android:inputType="number"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/tempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="8dp"
+        android:hint="Informe o tempo a depositar (anos)"
+        android:layout_below="@+id/vlrMensal"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:layout_below="@+id/tempo"
+        android:layout_centerHorizontal="true"
+        android:hint="CALCULAR"/>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="5dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_margin="3dp">
+
+        <ImageView
+            android:id="@+id/imgGasto"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/tituloGasto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exemplo A"
+            android:paddingLeft="7dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imgGasto"/>
+
+        <TextView
+            android:id="@+id/descricaoGasto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exemplificando o exemplo A."
+            android:textSize="15sp"
+            android:paddingLeft="7dp"
+            android:layout_below="@+id/tituloGasto"
+            android:layout_toRightOf="@id/imgGasto"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hackaton</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="twice_back">"Aperte VOLTAR novamente para sair"</string>
+
+    <string-array name="categoria">
+        <item>Poupança</item>
+        <item>Aplicação</item>
+        <item>Consórcio</item>
+    </string-array>
+</resources>
